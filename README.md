@@ -16,6 +16,9 @@ docker build . -t trifork/keycloak-smart-auth:{version}
 
 docker push trifork/keycloak-smart-auth:{version}
 ```
+
+Images can be found on [Docker Hub](https://hub.docker.com/r/trifork/keycloak-smart-auth)
+
 ## Docker compose setup
 
 The docker compose setup uses a postgres db and imports a preconfigured realm on first startup.
