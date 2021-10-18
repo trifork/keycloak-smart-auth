@@ -421,7 +421,6 @@
         "saml.onetimeuse.condition": "false"
       },
       "authenticationFlowBindingOverrides": {
-        "direct_grant": "0a5c47c6-c9fc-49c5-8037-ed7a810f8b75",
         "browser": "0a5c47c6-c9fc-49c5-8037-ed7a810f8b75"
       },
       "fullScopeAllowed": true,
