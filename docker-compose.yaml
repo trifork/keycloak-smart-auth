@@ -46,6 +46,7 @@ services:
         "spring.datasource.username" : "hapi",
         "spring.datasource.password" : "hapi",
         "spring.autoconfigure.exclude" : "org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration",
+        "hapi.fhir.client_id_strategy" : "ANY",
         "spring.jpa.properties.hibernate.dialect" : "org.hibernate.dialect.PostgreSQLDialect"
          }'    
 
@@ -63,7 +64,8 @@ services:
         "spring.datasource.password" : "hapi",
         "spring.security.oauth2.resourceserver.jwt.jwk-set-uri" : "http://keycloak:8080/auth/realms/smart/protocol/openid-connect/certs",
         "spring.security.oauth2.resourceserver.jwt issuer-uri" : "http://keycloak:8080/auth/realms/smart",
-        "spring.hapi.fhir.smart_enabled" : "true",
+        "hapi.fhir.smart_enabled" : "true",
+        "hapi.fhir.client_id_strategy" : "ANY",
         "spring.jpa.properties.hibernate.dialect" : "org.hibernate.dialect.PostgreSQLDialect"
          }'
       
